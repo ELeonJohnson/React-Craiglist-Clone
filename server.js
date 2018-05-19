@@ -14,7 +14,9 @@ const app = express()
 //Setting up the root route
 
 app.use('/', serveStatic(path.join(__dirname, '/public')))
-
+app.get('*', function(req, res){
+  res.sendFile(__dirname + '/public/index.html')
+})
 
 //Create default port to serve the application
 
