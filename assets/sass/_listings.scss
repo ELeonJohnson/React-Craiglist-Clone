@@ -6,60 +6,132 @@
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 50px 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
 
 
-    .form-group {
-      display: flex;
-      flex-direction: column;
-
-
-      label {
-        font-size: .8rem;
-        font-weight: 500;
-        margin-bottom: .8rem;
-      }
-
-      select {
-        background: #fff;
-        border-radius: 5px;
-        font-size: 1.3rem;
-        padding: 5px;
-        min-width: 100px;
-        border: 2px solid #ADBED2;
-        color: #1b1b1b;
-        margin-right: 20px;
-      }
-
-      &.button {
-        flex-direction: row;
-        align-items: flex-end;
-      }
-
-      .primary-btn {
-        padding: 10px 20px;
-        background: #2A7DDD;
-        color: #fff;
-
-      }
-      .reset-btn {
-        background: #F7F8FA;
-
-
-        &hover {
-          background: #F7F8FA;
-        }
-      }
-      .primary-btn,
-      .reset-btn {
-        cursor: pointer;
-        border-radius: 5px;
-        padding: 10px 20px;
-        margin-right: 20px;
-      }
-    }
+  label {
+    font-size: .8rem;
+    font-weight: 500;
+    margin-bottom: .8rem;
   }
 
-  #list-view {
+  select {
+    background: #fff;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    padding: 5px;
+    min-width: 100px;
+    border: 2px solid #ADBED2;
+    color: #1b1b1b;
+    margin-right: 20px;
+  }
 
+  &.button {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .primary-btn {
+    padding: 10px 20px;
+    background: #2A7DDD;
+    color: #fff;
+
+  }
+  .reset-btn {
+    background: #F7F8FA;
+
+
+    &hover {
+      background: #F7F8FA;
+    }
+  }
+  .primary-btn,
+  .reset-btn {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 20px;
+  }
+}
+
+  #list-view {
+    background: #F7F8FA;
+    padding: 20px 0;
+    .white-box {
+      background: #fff;
+      padding: 20px;
+    }
+    .change-view {
+      display: flex;
+      flex-direction: row;
+    }
+    .all-items {
+      padding: 20px 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px 20px;
+
+      .item {
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.37);
+        border-radius: 5px;
+        overflow: hidden;
+
+        .image{
+          background: url("https://static-assets.tesla.com/v1/compositor/?model=ms&view=STUD_3QTR&options=AF00,APF0,APH3,APPA,X011,X031,AU00,X014,BCMB,BP00,BR00,BS00,BTX5,CH05,PX00,SU01,X021,X025,PF00,X043,CDM0,COL1-PBSB,CW00,DCF0,DRLH,ME02,DSHG,DV4W,DU00,FG02,FMP6,FR04,HC00,HP00,IDBA,INBTB,QTTB,S31B,UTPB,LLP1,LP01,MI03,PI00,SR07,PK00,PS01,RFFG,SC04,SP00,ST01,TIG4,TM00,TR00,WTAS,X001,X003,X007,X027,X028,X037,X040,YFCC&size=476&context=design_studio_desktop");
+          height: 250px;
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          position: relative;
+          padding: 10px;
+          .price {
+            background: #fff;
+            position: absolute;
+            padding: 5px 10px;
+            color: green;
+            border-radius: 3px;
+          }
+        }
+        .details {
+          padding: 10px;
+          position: relative;
+
+          .fa-star {
+            position: absolute;
+            right: 0;
+            right: 10px;
+            font-size: 1.4rem;
+            top: 20px;
+
+            &:hover {
+              cursor: pointer;
+              color: gold;
+            }
+
+          }
+
+          h5 {
+            font-size: .9rem;
+            color: #27292d;
+            line-height: 1.5;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+
+
+
+          }
+
+          h6 {
+            font-size: .7rem;
+            color: #565d68;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
   }
 }
