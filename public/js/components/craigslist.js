@@ -458,17 +458,59 @@ var Details = function (_Component) {
                 ),
                 _react2.default.createElement(
                   'h3',
-                  null,
+                  { className: 'title' },
                   'Black 2017 Tesla'
                 ),
                 _react2.default.createElement(
                   'h4',
                   { className: 'price' },
-                  'price'
+                  '$55,000'
                 ),
                 _react2.default.createElement(
                   'div',
                   { className: 'more-details' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'info' },
+                    _react2.default.createElement(
+                      'label',
+                      null,
+                      'Vin'
+                    ),
+                    _react2.default.createElement(
+                      'h5',
+                      null,
+                      'dummy text'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'info' },
+                    _react2.default.createElement(
+                      'label',
+                      null,
+                      'Mileage'
+                    ),
+                    _react2.default.createElement(
+                      'h5',
+                      null,
+                      '16248'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'info' },
+                    _react2.default.createElement(
+                      'label',
+                      null,
+                      'Transmission'
+                    ),
+                    _react2.default.createElement(
+                      'h5',
+                      null,
+                      'Manual'
+                    )
+                  ),
                   _react2.default.createElement(
                     'div',
                     { className: 'info' },
@@ -516,9 +558,24 @@ var Details = function (_Component) {
                   'div',
                   { className: 'description' },
                   _react2.default.createElement(
+                    'label',
+                    null,
+                    'Description'
+                  ),
+                  _react2.default.createElement(
                     'p',
                     null,
-                    'This is where the description goes'
+                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+                  ),
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
                   )
                 )
               )

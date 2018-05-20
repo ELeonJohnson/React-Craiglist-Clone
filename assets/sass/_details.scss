@@ -43,7 +43,7 @@
             .arrows {
               top: 0;
               bottom: 0;
-              padding: 0 15px;
+              padding: 0 10px;
               height: 100%;
               position: absolute;
               background: rgba(0,0,0,.5);
@@ -81,6 +81,63 @@
             background-position: center center;
             background-repeat: no-repeat;
           }
+        }
+      }
+    }
+
+    .details-column {
+      .date {
+        font-size: .9rem;
+        color: #424242;
+        margin-bottom: 15px;
+      }
+
+      .title {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 15px;
+      }
+
+      .price {
+        font-size: 1.7rem;
+        color: green;
+        font-weight: 500;
+        margin-bottom: 30px;
+      }
+
+      label {
+        font-weight: 700;
+        font-size: .7rem;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      .more-details {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 15px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #F6F6F7;
+
+        .info {
+
+
+          h5 {
+            font-size: .9rem;
+            font-weight: 300;
+            text-transform: uppercase;
+          }
+        }
+      }
+
+      .description {
+        p {
+          font-size: .9rem;
+          line-height: 1.5;
+          color: #424242;
+          margin-bottom: 1.5rem;
         }
       }
     }
