@@ -350,148 +350,176 @@ var Details = function (_Component) {
           'div',
           { className: 'container' },
           _react2.default.createElement(
-            'section',
-            { className: 'submenu' },
+            'div',
+            { className: 'white-box' },
             _react2.default.createElement(
-              'div',
-              { className: 'direction' },
+              'section',
+              { className: 'submenu' },
               _react2.default.createElement(
                 'div',
-                { className: 'prev' },
-                'Prev'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'next' },
-                'Next'
-              )
-            ),
-            _react2.default.createElement(
-              'nav',
-              { className: 'sub-links' },
-              _react2.default.createElement(
-                'a',
-                { href: '#' },
-                'More Ads by User'
-              ),
-              _react2.default.createElement(
-                'a',
-                { href: '#' },
-                'Print'
-              ),
-              _react2.default.createElement(
-                'a',
-                { href: '#' },
-                'Share'
-              ),
-              _react2.default.createElement(
-                'a',
-                { href: '#' },
-                'Contact Seller'
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'section',
-            null,
-            _react2.default.createElement(
-              'div',
-              { className: 'media-column' },
-              _react2.default.createElement(
-                'div',
-                { className: 'gallery' },
+                { className: 'direction' },
                 _react2.default.createElement(
-                  'div',
-                  { className: 'slider' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'main-image' },
-                    _react2.default.createElement('div', { className: 'left-arrow' }),
-                    _react2.default.createElement('div', { className: 'right-arrow' })
-                  )
+                  'a',
+                  { href: '#', className: 'prev' },
+                  'Prev'
                 ),
                 _react2.default.createElement(
-                  'div',
-                  { className: 'thumbnails' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'thumb-img' },
-                    'image'
-                  )
+                  'a',
+                  { href: '#', className: 'next' },
+                  'Next'
+                )
+              ),
+              _react2.default.createElement(
+                'nav',
+                { className: 'sub-links' },
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'More Ads by User'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'Print'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'Share'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  'Contact Seller'
                 )
               )
             ),
             _react2.default.createElement(
-              'div',
-              { className: 'details-column' },
+              'section',
+              { className: 'content-area' },
               _react2.default.createElement(
                 'div',
-                { className: 'date' },
-                'Posted: May 20th'
-              ),
-              _react2.default.createElement(
-                'h3',
-                null,
-                'Black 2017 Tesla'
-              ),
-              _react2.default.createElement(
-                'h4',
-                { className: 'price' },
-                'price'
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'more-details' },
+                { className: 'media-column' },
                 _react2.default.createElement(
                   'div',
-                  { className: 'info' },
+                  { className: 'gallery' },
                   _react2.default.createElement(
-                    'label',
-                    null,
-                    'Vin'
+                    'div',
+                    { className: 'slider' },
+                    _react2.default.createElement(
+                      'div',
+                      { className: 'main-image' },
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'arrows left-arrow' },
+                        _react2.default.createElement('i', { className: 'fa fa-angle-left' })
+                      ),
+                      _react2.default.createElement(
+                        'div',
+                        { className: 'arrows right-arrow' },
+                        _react2.default.createElement('i', { className: 'fa fa-angle-right' })
+                      ),
+                      _react2.default.createElement('div', { className: 'image-1', style: {
+                          "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                        } })
+                    )
                   ),
                   _react2.default.createElement(
-                    'h5',
-                    null,
-                    'dummy text'
-                  )
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'info' },
-                  _react2.default.createElement(
-                    'label',
-                    null,
-                    'Mileage'
-                  ),
-                  _react2.default.createElement(
-                    'h5',
-                    null,
-                    '16248'
-                  )
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'info' },
-                  _react2.default.createElement(
-                    'label',
-                    null,
-                    'Transmission'
-                  ),
-                  _react2.default.createElement(
-                    'h5',
-                    null,
-                    'Manual'
+                    'div',
+                    { className: 'thumbnails' },
+                    _react2.default.createElement('div', { className: 'thumb-img', style: {
+                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                      } }),
+                    _react2.default.createElement('div', { className: 'thumb-img', style: {
+                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                      } }),
+                    _react2.default.createElement('div', { className: 'thumb-img', style: {
+                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                      } }),
+                    _react2.default.createElement('div', { className: 'thumb-img', style: {
+                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                      } }),
+                    _react2.default.createElement('div', { className: 'thumb-img', style: {
+                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                      } }),
+                    _react2.default.createElement('div', { className: 'thumb-img', style: {
+                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                      } })
                   )
                 )
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'description' },
+                { className: 'details-column' },
                 _react2.default.createElement(
-                  'p',
+                  'div',
+                  { className: 'date' },
+                  'Posted: May 20th'
+                ),
+                _react2.default.createElement(
+                  'h3',
                   null,
-                  'This is where the description goes'
+                  'Black 2017 Tesla'
+                ),
+                _react2.default.createElement(
+                  'h4',
+                  { className: 'price' },
+                  'price'
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'more-details' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'info' },
+                    _react2.default.createElement(
+                      'label',
+                      null,
+                      'Vin'
+                    ),
+                    _react2.default.createElement(
+                      'h5',
+                      null,
+                      'dummy text'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'info' },
+                    _react2.default.createElement(
+                      'label',
+                      null,
+                      'Mileage'
+                    ),
+                    _react2.default.createElement(
+                      'h5',
+                      null,
+                      '16248'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'info' },
+                    _react2.default.createElement(
+                      'label',
+                      null,
+                      'Transmission'
+                    ),
+                    _react2.default.createElement(
+                      'h5',
+                      null,
+                      'Manual'
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'description' },
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    'This is where the description goes'
+                  )
                 )
               )
             )

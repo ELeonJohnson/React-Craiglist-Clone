@@ -12,10 +12,11 @@ export default class Details extends Component {
     const {match, location, history} = this.props
     return (<div className="details-page">
       <div className="container">
+        <div className="white-box">
         <section className="submenu">
           <div className="direction">
-            <div className="prev">Prev</div>
-            <div className="next">Next</div>
+            <a href="#" className="prev">Prev</a>
+            <a href="#" className="next">Next</a>
           </div>
           <nav className="sub-links">
             <a href="#">More Ads by User</a>
@@ -25,17 +26,37 @@ export default class Details extends Component {
           </nav>
         </section>
 
-        <section>
+        <section className="content-area">
           <div className="media-column">
             <div className="gallery">
               <div className="slider">
                 <div className="main-image">
-                  <div className="left-arrow"></div>
-                  <div className="right-arrow"></div>
+                  <div className="arrows left-arrow"><i className="fa fa-angle-left"></i></div>
+                  <div className="arrows right-arrow"><i className="fa fa-angle-right"></i></div>
+                  <div className="image-1" style={{
+                    "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                  }}></div>
                 </div>
               </div>
               <div className="thumbnails">
-                <div className="thumb-img">image</div>
+                <div className="thumb-img" style={{
+                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                }}></div>
+                <div className="thumb-img" style={{
+                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                }}></div>
+                <div className="thumb-img" style={{
+                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                }}></div>
+                <div className="thumb-img" style={{
+                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                }}></div>
+                <div className="thumb-img" style={{
+                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                }}></div>
+                <div className="thumb-img" style={{
+                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
+                }}></div>
               </div>
             </div>
           </div>
@@ -69,6 +90,7 @@ export default class Details extends Component {
           </div>
 
         </section>
+      </div>
       </div>
     </div>)
   }
