@@ -16,11 +16,11 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouterDom = __webpack_require__(243);
+var _reactRouterDom = __webpack_require__(244);
 
 var _Header = __webpack_require__(119);
 
@@ -105,7 +105,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -137,7 +137,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -239,7 +239,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -309,9 +309,13 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _Gallery = __webpack_require__(124);
+
+var _Gallery2 = _interopRequireDefault(_Gallery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -400,53 +404,7 @@ var Details = function (_Component) {
               _react2.default.createElement(
                 'div',
                 { className: 'media-column' },
-                _react2.default.createElement(
-                  'div',
-                  { className: 'gallery' },
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'slider' },
-                    _react2.default.createElement(
-                      'div',
-                      { className: 'main-image' },
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'arrows left-arrow' },
-                        _react2.default.createElement('i', { className: 'fa fa-angle-left' })
-                      ),
-                      _react2.default.createElement(
-                        'div',
-                        { className: 'arrows right-arrow' },
-                        _react2.default.createElement('i', { className: 'fa fa-angle-right' })
-                      ),
-                      _react2.default.createElement('div', { className: 'image-1', style: {
-                          "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                        } })
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'div',
-                    { className: 'thumbnails' },
-                    _react2.default.createElement('div', { className: 'thumb-img', style: {
-                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                      } }),
-                    _react2.default.createElement('div', { className: 'thumb-img', style: {
-                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                      } }),
-                    _react2.default.createElement('div', { className: 'thumb-img', style: {
-                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                      } }),
-                    _react2.default.createElement('div', { className: 'thumb-img', style: {
-                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                      } }),
-                    _react2.default.createElement('div', { className: 'thumb-img', style: {
-                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                      } }),
-                    _react2.default.createElement('div', { className: 'thumb-img', style: {
-                        "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                      } })
-                  )
-                )
+                _react2.default.createElement(_Gallery2.default, null)
               ),
               _react2.default.createElement(
                 'div',
@@ -609,7 +567,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -794,7 +752,7 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(16);
+var _reactDom = __webpack_require__(14);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -1020,6 +978,137 @@ var Listings = function (_Component) {
 }(_react.Component);
 
 exports.default = Listings;
+
+/***/ }),
+
+/***/ 124:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(5);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(14);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Gallery = function (_Component) {
+  _inherits(Gallery, _Component);
+
+  function Gallery() {
+    _classCallCheck(this, Gallery);
+
+    var _this = _possibleConstructorReturn(this, (Gallery.__proto__ || Object.getPrototypeOf(Gallery)).call(this));
+
+    _this.allImgsLoop = function () {
+      return _this.state.allImgs.map(function (item, i) {
+        return _react2.default.createElement('div', { key: i, onClick: _this.clickedThumb.bind(null, i), className: 'thumb-img', style: {
+            "backgroundImage": 'url(\'' + item + '\')'
+          } });
+      });
+    };
+
+    _this.nextBtn = function () {
+      if (_this.state.currentIndex != _this.state.allImgs.length - 1) {
+        _this.setState({
+          currentIndex: _this.state.currentIndex + 1
+        });
+      }
+    };
+
+    _this.prevBtn = function () {
+      if (_this.state.currentIndex != 0) {
+        _this.setState({
+          currentIndex: _this.state.currentIndex - 1
+        });
+      }
+    };
+
+    _this.clickedThumb = function (index) {
+      _this.setState({
+        currentIndex: index
+      });
+    };
+
+    _this.state = {
+      allImgs: '',
+      currentImg: '',
+      currentIndex: 0
+    };
+    return _this;
+  }
+
+  _createClass(Gallery, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var allImgs = ["https://cdn.shopify.com/s/files/1/1724/5219/articles/black-tesla-model-s-ts7-p100d-ts115-21in-02_3c144351-0869-415d-adb2-da694f0d7402.jpg?v=1492018433", "https://i.ytimg.com/vi/Eb41ppq-ATU/maxresdefault.jpg", "https://images-na.ssl-images-amazon.com/images/I/6108Whli%2BfL._SX425_.jpg", "https://res.cloudinary.com/carsguide/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/tesla-model-x-p90-black-2017-pa-%282%29.jpg", "http://allstarmotorsports.gallery/images/storage/252d7922/venue_59d450e29fe427f3061.jpg", "https://boygeniusreport.files.wordpress.com/2016/06/wenmg3e.jpg?quality=98&strip=all&w=782"];
+      this.setState({
+        allImgs: allImgs,
+        currentImg: allImgs[this.state.currentIndex]
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props = this.props,
+          match = _props.match,
+          location = _props.location,
+          history = _props.history;
+
+      return _react2.default.createElement(
+        'div',
+        { className: 'gallery' },
+        _react2.default.createElement(
+          'div',
+          { className: 'slider' },
+          _react2.default.createElement(
+            'div',
+            { className: 'main-image' },
+            _react2.default.createElement(
+              'div',
+              { className: 'arrows left-arrow', onClick: this.prevBtn },
+              _react2.default.createElement('i', { className: 'fa fa-angle-left' })
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'arrows right-arrow', onClick: this.nextBtn },
+              _react2.default.createElement('i', { className: 'fa fa-angle-right' })
+            ),
+            _react2.default.createElement('div', { className: 'image-1', style: {
+                "backgroundImage": 'url(\'' + this.state.allImgs[this.state.currentIndex] + '\')'
+              } })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'thumbnails' },
+          this.allImgsLoop()
+        )
+      );
+    }
+  }]);
+
+  return Gallery;
+}(_react.Component);
+
+exports.default = Gallery;
 
 /***/ })
 

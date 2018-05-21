@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
+import Gallery from './components/Gallery.js'
 
 export default class Details extends Component {
   constructor() {
@@ -28,37 +29,7 @@ export default class Details extends Component {
 
         <section className="content-area">
           <div className="media-column">
-            <div className="gallery">
-              <div className="slider">
-                <div className="main-image">
-                  <div className="arrows left-arrow"><i className="fa fa-angle-left"></i></div>
-                  <div className="arrows right-arrow"><i className="fa fa-angle-right"></i></div>
-                  <div className="image-1" style={{
-                    "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                  }}></div>
-                </div>
-              </div>
-              <div className="thumbnails">
-                <div className="thumb-img" style={{
-                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                }}></div>
-                <div className="thumb-img" style={{
-                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                }}></div>
-                <div className="thumb-img" style={{
-                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                }}></div>
-                <div className="thumb-img" style={{
-                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                }}></div>
-                <div className="thumb-img" style={{
-                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                }}></div>
-                <div className="thumb-img" style={{
-                  "backgroundImage": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GMrkjhkRRsWSDjLvob2L72Jt1sd_h3LNzcjJKpBlujGvZu5I')"
-                }}></div>
-              </div>
-            </div>
+            <Gallery />
           </div>
           <div className="details-column">
             <div className="date">
