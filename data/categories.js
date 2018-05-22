@@ -1,4 +1,4 @@
-module.export = [
+module.exports = [
  {
    title: "community",
    listings: [
@@ -33,7 +33,7 @@ module.export = [
      {
        name: "local news",
        slug: "local-news"
-     },
+     }
    ]
  },
 
@@ -71,7 +71,7 @@ module.export = [
      {
        name: "rooms wanted",
        slug: "rooms-wanted"
-     },
+     }
    ]
  },
 
@@ -79,7 +79,7 @@ module.export = [
    title: "jobs",
    listings: [
      {
-       name: "accounting+finance",
+       name: "accounting & finance",
        slug: "accounting-and-finance"
      },
      {
@@ -109,7 +109,7 @@ module.export = [
      {
        name: "education",
        slug: "education"
-     },
+     }
    ]
  },
 
@@ -145,9 +145,9 @@ module.export = [
        slug: "event"
      },
      {
-       name: "farm+garden",
+       name: "farm & garden",
        slug: "farm-and-garden"
-     },
+     }
    ]
  },
 
@@ -163,7 +163,7 @@ module.export = [
        slug: "appliances"
      },
      {
-       name: "arts+crafts",
+       name: "arts & crafts",
        slug: "arts-and-crafts"
      },
      {
@@ -176,7 +176,7 @@ module.export = [
      },
 
      {
-       name: "baby+kid",
+       name: "baby & kid",
        slug: "baby-and-kid"
      },
      {
@@ -185,9 +185,9 @@ module.export = [
      },
 
      {
-       name: "cars+trucks",
+       name: "cars & trucks",
        slug: "cars-and-trucks"
-     },
+     }
    ]
  },
 
@@ -225,7 +225,7 @@ module.export = [
      {
        name: "celebs",
        slug: "celebs"
-     },
+     }
    ]
  },
 
@@ -271,7 +271,6 @@ module.export = [
  title: "resumes",
  listings: [
 
- ]
-}
-
+  ]
+ }
 ]
